@@ -65,7 +65,7 @@ education:
   - area: B.Eng. Electrical Engineering and Information Technology
     institution: University of Applied Sciences Regensburg
     date_start: "2012-10-01"
-    date_end: "2016-09-31"
+    date_end: "2016-09-30"
     summary: |
       GPA: 84/100
       German Grading: 1.8 "Good"
