@@ -49,12 +49,12 @@ interests:
   - Acoustic Modelling
 
 education:
-  - area: PhD in Acoustics and Audio Signal Processing
-    institution: Aalto University
-    date_start: 2020-09-01
-    date_end: "ongoing"
-    summary: |
-      Research on spatial audio signal processing and microphone array processing. Supervisor: Prof. Ville Pulkki.
+  # - area: PhD in Acoustics and Audio Signal Processing
+  #   institution: Aalto University
+  #   date_start: 2020-09-01
+  #   date_end: "ongoing"
+  #   summary: |
+  #     Research on spatial audio signal processing and microphone array processing. Supervisor: Prof. Ville Pulkki.
   - area: M.Sc. Electrical Engineering and Information Technology
     institution: Friedrich-Alexander-University Erlangen-Nuremberg
     date_start: 2016-10-01
