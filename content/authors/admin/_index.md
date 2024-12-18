@@ -57,16 +57,15 @@ education:
   #     Research on spatial audio signal processing and microphone array processing. Supervisor: Prof. Ville Pulkki.
   - area: M.Sc. Electrical Engineering and Information Technology
     institution: Friedrich-Alexander-University Erlangen-Nuremberg
-    date_start: 2016-10-01
-    date_end: 2019-04-04
+    date_start: "2016-10-01"
+    date_end: "2019-04-04"
     summary: |
       GPA: 90/100
       German Grading: 1.5 "Very Good"
-
   - area: B.Eng. Electrical Engineering and Information Technology
     institution: University of Applied Sciences Regensburg
-    date_start: 2012-10-01
-    date_end: 2016-09-31
+    date_start: "2012-10-01"
+    date_end: "2016-09-31"
     summary: |
       GPA: 84/100
       German Grading: 1.8 "Good"
@@ -76,8 +75,8 @@ work:
     company_name: Frauhofer Institute for Integrated Circuits IIS
     company_url: ''
     company_logo: ''
-    date_start: 2019-05-01
-    date_end: 2019-11-30
+    date_start: "2019-05-01"
+    date_end: "2019-11-30"
     summary: 
 
 # Skills
