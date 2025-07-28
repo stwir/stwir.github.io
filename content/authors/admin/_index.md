@@ -36,7 +36,7 @@ profiles:
  # - icon: brands/github
  #   url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/https://www.linkedin.com/in/stefan-wirler-6b58abaa/
+    url: https://www.linkedin.com/in/stefan-wirler-6b58abaa/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=zfh3a78AAAAJ&hl=de
  # - icon: academicons/orcid
