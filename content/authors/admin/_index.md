@@ -62,6 +62,9 @@ education:
     summary: |
       GPA: 90/100
       German Grading: 1.5 "Very Good"
+      Thesis: "Impact of Diffuse and Disturbed Reflections on Room Geometry Inference Algorithms" [Download thesis (PDF)](/static/uploads/thesis.pdf)
+
+      Supervisor: Prof. Dr.ir. Emmanuel Habets
   - area: B.Eng. Electrical Engineering and Information Technology
     institution: University of Applied Sciences Regensburg
     date_start: "2012-10-01"
@@ -90,7 +93,7 @@ skills:
         icon: code-bracket
       - name: Python
         description: ''
-        percent: 60
+        percent: 70
         icon: code-bracket
       - name: MAX/MSP
         description: ''
