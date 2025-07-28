@@ -60,8 +60,8 @@ education:
     date_start: "2016-10-01"
     date_end: "2019-04-04"
     summary: |
-      GPA: 90/100
-      German Grading: 1.5 "Very Good"
+      GPA: 90/100, German Grading: 1.5 "Very Good"
+      
       Thesis: "Impact of Diffuse and Disturbed Reflections on Room Geometry Inference Algorithms" [Download thesis (PDF)](/static/uploads/thesis.pdf)
 
       Supervisor: Prof. Dr.ir. Emmanuel Habets
@@ -70,8 +70,7 @@ education:
     date_start: "2012-10-01"
     date_end: "2016-09-30"
     summary: |
-      GPA: 84/100
-      German Grading: 1.8 "Good"
+      GPA: 84/100, German Grading: 1.8 "Good"
       
 work:
   - position: Graduate Research Assistant
