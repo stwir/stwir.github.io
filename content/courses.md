@@ -1,16 +1,12 @@
 ---
 title: "Courses"
 date: 2025-07-29
-layout: page
+layout: courses
 ---
 
 ## Courses
 
 A selection of courses I have taken during my Master's and Ph.D. studies.
-
-{{< row >}}
-
-{{< col md="6" >}}
 
 ### Friedrich-Alexander-Universität Erlangen-Nürnberg  
 *(M.Sc. Studies)*
@@ -30,16 +26,14 @@ Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being t
 - Mobile Communications (2.0)  
 - Speech Enhancement (1.0)  
 - Speech and Audio Signal Processing (2.3)  
-- Statistical Signal Processing (2.3)  
+- Statistical Signal Processing (2.3)
 
 #### Research Project
 
 **Block-Online Implementation of Independent Vector Analysis (Python)**  
 Implemented a block-online version of Independent Vector Analysis (IVA) for blind source separation of convolutive mixtures. The approach processes audio in chunks, enabling real-time applications and dynamic source scenarios. Performance was benchmarked against traditional online IVA and evaluated in simulated reverberant environments with moving sources.
 
-{{< /col >}}
-
-{{< col md="6" >}}
+---
 
 ### Aalto University  
 *(Ph.D. Studies)*
@@ -53,7 +47,3 @@ Grades are on a scale from 1 to 5, with 5 being the highest grade.
 - Machine Learning with Python (5/5)  
 - Machine Learning: Supervised Methods (5/5)  
 - Virtual Acoustics (5/5)
-
-{{< /col >}}
-
-{{< /row >}}
