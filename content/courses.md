@@ -4,6 +4,8 @@ date: 2025-07-29
 layout: page
 ---
 
+<div class="max-w-screen-xl mx-auto px-6">
+
 ## Courses
 
 A selection of courses I have taken during my Master's and Ph.D. studies.
@@ -55,6 +57,8 @@ A selection of courses I have taken during my Master's and Ph.D. studies.
   <li>Machine Learning: Supervised Methods (5/5)</li>
   <li>Virtual Acoustics (5/5)</li>
 </ul>
+</div>
+
 </div>
 
 </div>
