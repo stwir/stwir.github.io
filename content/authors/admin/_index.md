@@ -64,13 +64,17 @@ education:
       
       Thesis: "Impact of Diffuse and Disturbed Reflections on Room Geometry Inference Algorithms" [Download thesis (PDF)](/uploads/thesis.pdf)
 
-      Supervisor: Prof. Dr.ir. Emmanuel Habets
+      Supervisor: Prof. Dr. ir. Emanuël Habets
   - area: B.Eng. Electrical Engineering and Information Technology
     institution: University of Applied Sciences Regensburg
     date_start: "2012-10-01"
     date_end: "2016-09-30"
     summary: |
       GPA: 84/100, German Grading: 1.8 "Good"
+
+      Thesis: "Multi-Channel Measurement of Room Impulse Responses for Determination of Room Acoustic Parameters"
+
+      Supervisor: Prof. Dr.-Ing. Armin Sehr
       
 work:
   - position: Graduate Research Assistant
