@@ -12,12 +12,10 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: Coming Soon
+      text: 
       filters:
         folders:
           - project
     design:
-      view: article-grid
-      fill_image: false
-      columns: 3
+      columns: '1'
 ---
