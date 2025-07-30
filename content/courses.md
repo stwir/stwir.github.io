@@ -36,7 +36,7 @@ Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being t
 Implemented a block-online version of Independent Vector Analysis (IVA) for blind source separation of convolutive mixtures. The approach processes audio in chunks, enabling real-time applications and dynamic source scenarios. Performance was benchmarked against traditional online IVA and evaluated in simulated reverberant environments with moving sources.
 
 #### Master's Thesis
-**Impact of Diffuse and Distured Reflection on Room Geometry Inference Algorithms**
+[**Impact of Diffuse and Disturbed Reflection on Room Geometry Inference Algorithms**](/uploads/thesis.pdf)
 
 Grade: 1.0 (very good)
 
