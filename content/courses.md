@@ -8,6 +8,8 @@ layout: courses
 
 A selection of courses I have taken during my Master's and Ph.D. studies.
 
+---
+
 ### Friedrich-Alexander-Universität Erlangen-Nürnberg  
 *(M.Sc. Studies)*
 
@@ -42,7 +44,6 @@ Supervisor: Prof. Dr. ir. Emanuël Habets
 
 Advisor: Dr. Youssef El Baba
 
-
 ---
 
 ### Aalto University  
@@ -57,3 +58,5 @@ Grades are on a scale from 1 to 5, with 5 being the highest grade.
 - Machine Learning with Python (5/5)  
 - Machine Learning: Supervised Methods (5/5)  
 - Virtual Acoustics (5/5)
+
+--- 
