@@ -35,8 +35,11 @@ Implemented a block-online version of Independent Vector Analysis (IVA) for blin
 
 #### Master's Thesis
 **Impact of Diffuse and Distured Reflection on Room Geometry Inference Algorithms**
+
 Grade: 1.0 (very good)
-Supervisor: Prof. Dr. ir. Emanu¨el Habets
+
+Supervisor: Prof. Dr. ir. Emanuël Habets
+
 Advisor: Dr. Youssef El Baba
 ---
 
