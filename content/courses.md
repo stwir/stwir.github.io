@@ -11,7 +11,7 @@ A selection of courses I have taken during my Master's and Ph.D. studies.
 ### Friedrich-Alexander-Universität Erlangen-Nürnberg  
 *(M.Sc. Studies)*
 
-Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being the highest grade, in 0.3 increments. (German grading system)
+Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being the highest grade. (German grading system - Steps: 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0)
 
 - Advanced Topics in Information Theory (1.0)  
 - Audio Processing Seminar (1.0)  
@@ -33,6 +33,11 @@ Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being t
 **Block-Online Implementation of Independent Vector Analysis (Python)**  
 Implemented a block-online version of Independent Vector Analysis (IVA) for blind source separation of convolutive mixtures. The approach processes audio in chunks, enabling real-time applications and dynamic source scenarios. Performance was benchmarked against traditional online IVA and evaluated in simulated reverberant environments with moving sources.
 
+#### Master's Thesis
+**Impact of Diffuse and Distured Reflection on Room Geometry Inference Algorithms**
+Grade: 1.0 (very good)
+Supervisor: Prof. Dr. ir. Emanu¨el Habets
+Advisor: Dr. Youssef El Baba
 ---
 
 ### Aalto University  
