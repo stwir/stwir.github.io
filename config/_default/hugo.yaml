@@ -5,6 +5,7 @@
 
 # Website name
 title: Stefan Wirler
+theme: "."
 # Website URL
 baseURL: 'https://stwir.github.io/'
 
