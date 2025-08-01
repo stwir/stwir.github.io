@@ -1,7 +1,10 @@
-/* Make resume-biography-3 block wider */
+// Hugo Blox SCSS entry point
+
+@import "main"; // include base theme styles
+
+/* Expand resume-biography-3 block width */
 .wide-bio>div {
     max-width: 1280px !important;
-    /* Tailwind's screen-xl */
     margin-left: auto;
     margin-right: auto;
 }
