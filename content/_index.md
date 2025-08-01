@@ -20,11 +20,11 @@ sections:
         My research focuses on spatial audio, microphone array processing, and spatial post-filtering techniques, with a particular interest in compact and low-order directional arrays.
 
         My broader interests include machine learning for audio applications, perceptual evaluation of spatial audio in virtual and augmented reality, room acoustic modeling, and physical modeling tasks such as the auralization of scattering effects.  
-        I also enjoy teaching and sharing knowledge — you can find a selection of [courses I’ve taken](https://stwir.github.io/courses/) and [teaching activities](https://stwir.github.io/teaching/) on this site.
+        I also enjoy teaching and sharing knowledge, have a look at my selection of [courses I’ve taken](https://stwir.github.io/courses/) and [teaching activities](https://stwir.github.io/teaching/).
 
         I hold a Master’s degree in Electrical Engineering and Information Technology from Friedrich-Alexander-Universität Erlangen-Nürnberg and completed my Master’s thesis at the International Audio Laboratories Erlangen (AudioLabs).
 
-        Besides my academic work, I’m interested in chemical processes applied in the production of liquid which can be enjoyed on various occasions.
+        Besides my academic work, I’m interested in chemical processes applied in the production of liquids which can be enjoyed on various occasions.
 
         Cheers!
 
