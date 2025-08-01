@@ -1,0 +1,31 @@
+{{/* Modified About widget with date_start and date_end */}}
+{{ $person := .Content }}
+{{ $params := .Params }}
+
+<div class="about-content">
+    {{ with $person.Content }}
+    <div class="bio-content">{{ . | markdownify }}</div>
+    {{ end }}
+
+    {{ with $params.education }}
+    <div class="education">
+        <h2>Education</h2>
+        <ul>
+            {{ range . }}
+            <li>
+                <strong>{{ .course }}</strong>, {{ .institution }}
+                {{ with .date_start }}
+                {{ $start := dateFormat "2006" . }}
+                {{ with $.date_end }}
+                {{ $end := dateFormat "2006" . }}
+                <span class="text-muted"> ({{ $start }}–{{ $end }})</span>
+                {{ else }}
+                <span class="text-muted"> ({{ $start }}– )</span>
+                {{ end }}
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</div>
