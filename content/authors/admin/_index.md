@@ -47,6 +47,7 @@ interests:
   - Microphone Array Processing
   - Psychoacoustics
   - Acoustic Modelling
+  - Machine Learning
 
 education:
   - area: PhD Acoustics and Audio Signal Processing
