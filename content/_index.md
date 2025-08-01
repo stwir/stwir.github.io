@@ -3,14 +3,13 @@
 title: ""
 date: 2022-10-24
 type: landing
-layout: single
 
 #design:
   # Default section spacing
   #spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography-2
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
