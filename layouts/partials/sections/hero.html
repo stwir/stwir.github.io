@@ -1,0 +1,23 @@
+{{ $username := .content.username | default "admin" }}
+{{ $user := site.GetPage (printf "authors/%s" $username) }}
+
+<section class="relative w-full">
+    <div class="mx-auto max-w-screen-xl px-4 py-10 lg:flex lg:items-center lg:gap-10 lg:px-8 lg:py-20">
+        <div class="mx-auto max-w-2xl text-center lg:mx-0 lg:max-w-xl lg:text-left">
+            {{ with .content.title }}
+            <h1 class="text-3xl font-bold sm:text-4xl">{{ . }}</h1>
+            {{ end }}
+            {{ with .content.text }}
+            <div class="mt-6 text-lg leading-8 prose dark:prose-invert max-w-none">
+                {{ . | markdownify }}
+            </div>
+            {{ end }}
+
+            {{ with .content.button }}
+            <div class="mt-10">
+                <a class="button" href="{{ .url | relURL }}">{{ .text }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
