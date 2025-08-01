@@ -59,8 +59,7 @@ education:
       Supervisor: Prof. Ville Pulkki
   - area: M.Sc. Electrical Engineering and Information Technology
     institution: Friedrich-Alexander-University Erlangen-Nuremberg
-    date_start: "2016-10-01"
-    date_end: "2019-04-04"
+    year: "2016-2019"
     summary: |
       GPA: 90/100, German Grading: 1.5 "Very Good"
       
