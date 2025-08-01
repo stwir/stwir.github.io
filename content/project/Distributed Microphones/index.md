@@ -1,6 +1,6 @@
 ---
 title: "Spatially Selective Sound Capture Based on Aggregated Pair-Wise Similarity Measures"
-summary: "Companion page for the paper 'Spatially Selective Sound Capture Based on Aggregated Pair-Wise Similarity Measures' (2025)."
+summary: "Companion page (2025)."
 date: 2025-05-21
 draft: false
 links:
