@@ -9,7 +9,7 @@ type: landing
   #spacing: "6rem"
 
 sections:
-  - block: resume-biography-2
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -36,7 +36,8 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
+      #css_class: dark
+      css_class: wide-bio
       background:
         color: black
         image:
