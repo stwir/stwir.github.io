@@ -52,7 +52,7 @@ education:
   - area: PhD Acoustics and Audio Signal Processing
     institution: Aalto University
     date_start: "2020-09-01"
-    date_end: "ongoing"
+    date_end: ""
     summary: |
       Research on spatial audio signal processing and microphone array processing
        
