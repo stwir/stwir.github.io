@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="bg-background text-foreground antialiased">
+    {{ partial "header.html" . }}
+
+    <main class="max-w-screen-xl mx-auto px-6 py-10">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+</body>
+
+</html>
