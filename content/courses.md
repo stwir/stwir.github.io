@@ -13,7 +13,7 @@ A selection of courses I have taken during my Master's and Ph.D. studies.
 ### Friedrich-Alexander-Universität Erlangen-Nürnberg  
 *(M.Sc. Studies)*
 
-Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being the highest grade. (German grading system - Steps: 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0)
+Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being the best grade. (German grading system - Steps: 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0)
 
 - Advanced Topics in Information Theory (1.0)  
 - Audio Processing Seminar (1.0)  
@@ -52,7 +52,7 @@ AudioLabs Erlangen (Joint Institute of the University of Erlangen-Nürnberg and 
 ### Aalto University  
 *(Ph.D. Studies)*
 
-Grades are on a scale from 1 to 5, with 5 being the highest grade.
+Grades are on a scale from 1 to 5, with 5 being the best grade.
 
 - Coding Virtual Worlds (5/5)  
 - Deep Learning (5/5)  
