@@ -104,17 +104,29 @@ skills:
         description: ''
         percent: 60
         icon: code-bracket
+      - name: C
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: C++
+        description: ''
+        percent: 60
+        icon: code-bracket
       - name: Assembly
         description: ''
         percent: 40
         icon: code-bracket
-      - name: C
+      - name: VHDL
         description: ''
         percent: 40
         icon: code-bracket
-      - name: C++
+      - name: VHDL
         description: ''
         percent: 40
+        icon: code-bracket
+      - name: LabVIEW
+        description: ''
+        percent: 60
         icon: code-bracket
   # - name: Hobbies
   #   color: '#eeac02'
