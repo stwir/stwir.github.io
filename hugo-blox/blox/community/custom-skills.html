@@ -1,76 +1,72 @@
-{{/* Hugo Blox: Custom responsive skills block using author.skills (like resume-skills) */}}
+{{/* Custom responsive skills block using author.skills and the default skills CSS */}}
 
-{{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $author := $block.content.username | default "admin" }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
 
-{{ $person_page_path := printf "/authors/%s" $author }}
-{{ $person_page := site.GetPage $person_page_path }}
-{{ if not $person_page }}
-{{ errorf "Could not find an author page at `%s`. Please check the value of `username` in your custom-skills block and create an associated author page if one does not already exist." $person_page_path }}
-{{ end }}
-
+{{ if $person_page }}
 {{ $skills := $person_page.Params.skills }}
 {{ $show_skill_percentage := $block.design.show_skill_percentage | default true }}
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
-    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <div class="mb-6 text-3xl font-bold text-gray-100">
         {{ $block.content.title | markdownify | emojify }}
     </div>
-
     {{ with $block.content.text }}
     <p>{{ . | markdownify | emojify }}</p>
     {{ end }}
 </div>
 
 {{ if $skills }}
-<div class="flex flex-col items-stretch max-w-4xl mx-auto gap-8 px-6 md:px-0">
+<!-- wider container with padding so it does NOT touch the window border -->
+<div class="max-w-5xl mx-auto px-6 lg:px-12 flex flex-col gap-8">
 
     {{ range $skills }}
     <section class="w-full">
         <header class="mb-4">
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            <h3 class="text-xl font-bold text-gray-100">
                 {{ .name | markdownify | emojify }}
             </h3>
             {{ with .description }}
-            <p class="text-gray-600 dark:text-gray-300 mt-1">
+            <p class="text-gray-400 mt-1">
                 {{ . | markdownify | emojify }}
             </p>
             {{ end }}
         </header>
 
-        {{/* 1 column on mobile, 2 on md, 3 on lg */}}
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {{ range .items }}
-        <div class="flex flex-col gap-1">
-            <div class="flex items-center gap-2">
-                {{ with .icon }}
-                <span class="inline-block">
-                    {{ partial "functions/get_icon" (dict "name" . "attributes" "style='height: 1em;'") }}
-                </span>
+        <!-- 1 column mobile, 2 on md, 3 on lg -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
+            {{ range .items }}
+            <div class="skills-content">
+                <div class="flex items-center gap-2 mb-1">
+                    {{ with .icon }}
+                    <span class="skills-icon inline-block">
+                        {{ partial "functions/get_icon" (dict "name" . "attributes" "style='height: 1em;'") }}
+                    </span>
+                    {{ end }}
+                    <span class="skills-name font-medium text-gray-100">
+                        {{ .name | markdownify | emojify }}
+                    </span>
+                </div>
+
+                {{ with .description }}
+                <p class="skills-description text-sm text-gray-400">
+                    {{ . | markdownify | emojify }}
+                </p>
                 {{ end }}
-                <span class="text-gray-100 font-medium">
-                    {{ .name | markdownify | emojify }}
-                </span>
-            </div>
 
-            {{ with .description }}
-            <p class="text-sm text-gray-400">
-                {{ . | markdownify | emojify }}
-            </p>
-            {{ end }}
-
-            {{ if and .percent $show_skill_percentage }}
-            <div class="mt-2 h-2 rounded-full border border-gray-600 bg-gray-800/40 overflow-hidden">
-                <div class="h-full" style="width: {{ .percent }}%; background-color: #66c6c6;"></div>
+                {{ if and .percent $show_skill_percentage }}
+                <!-- use the original classes so the bar style is EXACTLY like before -->
+                <div class="skills-wrapper mt-1">
+                    <div class="skills-percent" style="width: {{ .percent }}%;"></div>
+                </div>
+                {{ end }}
             </div>
             {{ end }}
         </div>
-        {{ end }}
-
-    </div>
     </section>
     {{ end }}
 
 </div>
+{{ end }}
 {{ end }}
