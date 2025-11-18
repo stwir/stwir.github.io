@@ -112,11 +112,15 @@ skills:
         description: ''
         percent: 60
         icon: code-bracket
-      - name: Assembly
+      - name: Git
         description: ''
-        percent: 40
-        icon: code-bracket
-      - name: VHDL
+        percent: 70
+        icon: code-branch
+      - name: LaTeX
+        description: ''
+        percent: 80
+        icon: file-lines
+      - name: Assembly
         description: ''
         percent: 40
         icon: code-bracket
