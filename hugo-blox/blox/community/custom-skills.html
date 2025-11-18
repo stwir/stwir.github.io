@@ -41,34 +41,38 @@
 
         {{/* 1 column on mobile, 2 on md, 3 on lg */}}
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {{ range .items }}
-            <div class="flex flex-col gap-1">
-                <div class="flex items-center gap-2">
-                    {{ with .icon }}
-                    <span class="inline-block">
-                        {{ partial "functions/get_icon" (dict "name" . "attributes" "style=\"height: 1em;\"") }}
-                    </span>
-                    {{ end }}
-                    <span class="text-gray-700 dark:text-gray-300 font-medium">
-                        {{ .name | markdownify | emojify }}
-                    </span>
-                </div>
-
-                {{ with .description }}
-                <p class="text-sm text-gray-500 dark:text-gray-400">
-                    {{ . | markdownify | emojify }}
-                </p>
+        {{ range .items }}
+        <div class="flex flex-col gap-1">
+            <div class="flex items-center gap-2">
+                {{ with .icon }}
+                <span class="inline-block">
+                    {{ partial "functions/get_icon" (dict "name" . "attributes" "style='height: 1em;'") }}
+                </span>
                 {{ end }}
+                <span class="text-gray-100 font-medium">
+                    {{ .name | markdownify | emojify }}
+                </span>
+            </div>
 
-                {{ if and .percent $show_skill_percentage }}
-                <div class="mt-1 h-2 rounded-full bg-gray-700/40 overflow-hidden">
-                    <div class="h-full rounded-full" style="width: {{ .percent }}%;">
-                    </div>
+            {{ with .description }}
+            <p class="text-sm text-gray-400">
+                {{ . | markdownify | emojify }}
+            </p>
+            {{ end }}
+
+            {{ if and .percent $show_skill_percentage }}
+            <div class="mt-1 flex items-center gap-2">
+                <div class="flex-1 h-2 rounded-full border border-gray-600 overflow-hidden">
+                    <div class="h-full bg-gray-100" style="width: {{ .percent }}%;"></div>
                 </div>
-                {{ end }}
+                <span class="text-xs text-gray-400 whitespace-nowrap">
+                    {{ .percent }}%
+                </span>
             </div>
             {{ end }}
         </div>
+        {{ end }}
+    </div>
     </section>
     {{ end }}
 
