@@ -61,17 +61,13 @@
             {{ end }}
 
             {{ if and .percent $show_skill_percentage }}
-            <div class="mt-1 flex items-center gap-2">
-                <div class="flex-1 h-2 rounded-full border border-gray-600 overflow-hidden">
-                    <div class="h-full bg-gray-100" style="width: {{ .percent }}%;"></div>
-                </div>
-                <span class="text-xs text-gray-400 whitespace-nowrap">
-                    {{ .percent }}%
-                </span>
+            <div class="mt-2 h-2 rounded-full border border-gray-600 bg-gray-800/40 overflow-hidden">
+                <div class="h-full" style="width: {{ .percent }}%; background-color: #66c6c6;"></div>
             </div>
             {{ end }}
         </div>
         {{ end }}
+
     </div>
     </section>
     {{ end }}
