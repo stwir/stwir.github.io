@@ -7,8 +7,7 @@
 {{ $person_page_path := printf "/authors/%s" $author }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-{{ errorf "Could not find an author page at `%s`. Please check the value of `username` in your custom-skills block and
-create an associated author page if one does not already exist." $person_page_path }}
+{{ errorf "Could not find an author page at `%s`. Please check the value of `username` in your custom-skills block and create an associated author page if one does not already exist." $person_page_path }}
 {{ end }}
 
 {{ $skills := $person_page.Params.skills }}
