@@ -1,0 +1,77 @@
+{{ $skills := .content.skills }}
+
+<section class="custom-skills-section">
+    <h2>{{ .content.title }}</h2>
+
+    <div class="skills-grid">
+        {{ range $skills }}
+        <div class="skill-group">
+            <h3>{{ .name }}</h3>
+
+            {{ range .items }}
+            <div class="skill-item">
+                <span class="skill-name">{{ .name }}</span>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: {{.percent}}%;"></div>
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<style>
+.custom-skills-section {
+    margin-top: 2rem;
+}
+
+    /* 1 column on mobile by default */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+    /* 2 columns on small / medium screens */
+@media (min-width: 640px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+    /* 3 columns on large screens */
+@media (min-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.skill-group h3 {
+    margin-bottom: 1rem;
+    }
+
+.skill-item {
+    margin-bottom: 0.75rem;
+    }
+
+.skill-name {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    }
+
+.skill-bar {
+    height: 6px;
+    background: #333;
+    border-radius: 999px;
+    overflow: hidden;
+    }
+
+.skill-fill {
+    height: 100%;
+    background: #66c6c6;
+    /* adjust to match your theme accent */
+    border-radius: 999px;
+    }
+</style>
