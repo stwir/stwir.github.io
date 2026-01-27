@@ -51,11 +51,13 @@ interests:
 
 education:
   - area: PhD Acoustics and Audio Signal Processing
-    institution: Aalto University
+    institution: Aalto University, Aalto Acoustics Lab
     date_start: "2020-09-01"
+    date_end: "2026-01-26"
     summary: |
       Research on spatial audio signal processing and microphone array processing
-       
+      Thesis: "Spatial post-filtering for speech enhancement and source separation" [Link to Thesis](https://aaltodoc.aalto.fi/items/36f91973-b85b-4861-b91c-c12d71afe219) 
+
       Supervisor: Prof. Ville Pulkki
   - area: M.Sc. Electrical Engineering and Information Technology
     institution: Friedrich-Alexander-University Erlangen-Nuremberg
