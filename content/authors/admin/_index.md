@@ -6,12 +6,12 @@ title: Stefan Wirler
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Stefan
+first_name: Stefan Albert
 last_name: Wirler
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🍺
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:stefan.wirler@aalto.fi'
+    url: 'mailto:stefan.wirler@tuni.fi'
     label: E-mail Me
  # - icon: brands/github
  #   url: https://github.com/gcushen
