@@ -4,7 +4,7 @@ date: 2025-07-29
 layout: courses
 ---
 
-## Courses
+## Courses and Theses'
 
 A selection of courses I have taken during my Master's and Ph.D. studies.
 
@@ -43,7 +43,7 @@ Implemented a block-online version of Independent Vector Analysis (IVA) for blin
 #### Master's Thesis
 [**Impact of Diffuse and Disturbed Reflection on Room Geometry Inference Algorithms**](/uploads/thesis.pdf)
 
-**Extended Abstract**
+**Abstract**
 Room geometry inference algorithms are used to provide information about the reflector locations.
 These algorithms are applied in the context of e.g. sound-source localization, speaker tracking
 and dereverberation. For the estimation of the reflector locations, the sound reflections of the
@@ -63,7 +63,6 @@ propose filtering techniques to cope with diffuse reflections for robustness in 
 Specifically, we use image-based filtering techniques, the bilateral filter, and an extended gradient
 filter to equalize the impact of diffuse reflections. With the application of the filtering techniques,
 we are able to improve the overall performance of the algorithm in diffuse conditions.
-
 
 Grade: 1.0 (very good)
 
@@ -87,5 +86,22 @@ Grades are on a scale from 1 to 5, with 5 being the best grade.
 - Machine Learning with Python (5/5)  
 - Machine Learning: Supervised Methods (5/5)  
 - Virtual Acoustics (5/5)
+
+#### PhD Thesis
+[**Spatial post-filtering for speech enhancement and source separation**](https://aaltodoc.aalto.fi/items/36f91973-b85b-4861-b91c-c12d71afe219)
+
+
+**Abstract**
+Microphone arrays with limited spatial resolution, such as compact and low-order configurations, present challenges for spatial audio processing tasks including sound source separation and interference suppression. Traditional beamforming methods alone may lack the robustness and adaptability required for practical audio scenarios, particularly under constrained sensor arrangements. Further, despite advancements in spatial audio, most common spatial recording devices only utilize low-order, often first-order, directional signals. This thesis addresses these challenges by developing spatial post-filtering techniques inspired by the Cross-Pattern Coherence (CroPaC) algorithm, aiming to enhance the performance of omnidirectional and low-order directional microphone arrays.  
+
+First, we formulate a CroPaC-based post-filter estimated from low-order beamformer outputs. Even when the array departs from ideal geometric assumptions, simulations in multi-speaker conditions demonstrate consistent suppression of interference and background noise. Second, we investigate a space-domain variant (SD-CroPaC) for linear arrays with a focus on speech enhancement. Using single- and dual-line uniform linear arrays (ULAs), common beamforming ambiguities (e.g., front–back) can be suppressed. A combination that uses two post-filters yields stronger separation than either filter alone while preserving target speech.  
+
+Third, building on these insights, we propose a non-linear combination strategy that optimizes the merging of multiple CroPaC post-filters estimated from low-order directional signals. This approach improves spatial selectivity and hence interferer suppression, and outperforms a higher-order CroPaC baseline under the same conditions. Finally, we generalize coherence-driven post-filtering to distributed omnidirectional microphones by introducing aggregated pairwise similarity measures. This results in a soft mask that remains effective when sensors are spatially separated, with positional errors, and in a reverberant acoustic environment.  
+
+Collectively, these contributions significantly advance spatial audio processing techniques, providing robust and practical solutions to improve spatial selectivity and interference suppression capabilities of low-order and distributed microphone array systems, with applications to portable recorders, headsets, smartphones, and distributed omnidirectional microphone systems.
+
+Supervisor: Prof. Ville Pulkki
+
+Aalto Acoustic Labs, Department of Information and Communication Engineering, Aalto University 
 
 --- 
