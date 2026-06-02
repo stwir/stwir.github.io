@@ -6,7 +6,7 @@ layout: courses
 
 ## Courses and Theses'
 
-A selection of courses I have taken during my Master's and Ph.D. studies.
+A selection of courses and I have taken and my Theses during my Master's and Ph.D. studies.
 
 ---
 
