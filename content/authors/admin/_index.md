@@ -38,7 +38,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/stefan-wirler-6b58abaa/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=zfh3a78AAAAJ&hl=de
+    url: https://scholar.google.com/citations?user=fkctKYcAAAAJ&hl=en
  # - icon: academicons/orcid
  #   url: https://orcid.org/
 
