@@ -17,15 +17,20 @@ Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being t
 
 - Advanced Topics in Information Theory (1.0)  
 - Audio Processing Seminar (1.0)  
+- Audio Processing Laboratory (pass)
 - Communication Electronics (1.3)  
 - Communication Networks (2.3)  
 - Digital Communications (2.7)  
-- Digital Signal Processing (1.7)  
+- Digital Signal Processing (1.7) 
+- Digital Signal Processing Laboratory (pass) 
 - Equalization and Adaptive Systems for Digital Communications (1.0)  
 - Global Navigation Satellite Systems (1.3)  
 - Information Theory and Coding (1.3)  
 - Microwave Engineering (2.3)  
+- Medical Electronics (1.7)
 - Mobile Communications (2.0)  
+- Photonics 1 (2.3)
+- Speak convincingly and present yourself with confidence (1.3)
 - Speech Enhancement (1.0)  
 - Speech and Audio Signal Processing (2.3)  
 - Statistical Signal Processing (2.3)
@@ -37,6 +42,27 @@ Implemented a block-online version of Independent Vector Analysis (IVA) for blin
 
 #### Master's Thesis
 [**Impact of Diffuse and Disturbed Reflection on Room Geometry Inference Algorithms**](/uploads/thesis.pdf)
+
+**Extended Abstract**
+Room geometry inference algorithms are used to provide information about the reflector locations.
+These algorithms are applied in the context of e.g. sound-source localization, speaker tracking
+and dereverberation. For the estimation of the reflector locations, the sound reflections of the
+walls are used. As we don’t live in a perfect world, reflections occur which are not reflected
+specular, but into random directions. These reflections can impair the performance of such
+algorithms. In this context, it is needed to study the impact of these diffuse reflections.
+In this thesis, we address the problem of simulating first-order diffuse reflections. An approach is
+proposed to simulate these reflections with three different models and directly obtain the pressure
+room impulse response. With the three models, it is possible to simulate different conditions.
+Further, we examine the behavior of the simulation and the different methods.
+With the simulation of the diffuse reflections, the impact on a state-of-the-art room geometry
+inference algorithm is carried out. We show the performance under different diffuse conditions
+with a microscopic and a macroscopic view. The microscopic view is concerned with the impact
+on the time-of-arrival detection of the wall reflections. On the other hand, the macroscopic
+view provides an overview of average performance metrics. By the gained knowledge, we then
+propose filtering techniques to cope with diffuse reflections for robustness in diffuse conditions.
+Specifically, we use image-based filtering techniques, the bilateral filter, and an extended gradient
+filter to equalize the impact of diffuse reflections. With the application of the filtering techniques,
+we are able to improve the overall performance of the algorithm in diffuse conditions.
 
 
 Grade: 1.0 (very good)
