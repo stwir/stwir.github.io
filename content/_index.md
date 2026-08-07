@@ -21,10 +21,12 @@ sections:
         
         Currently, i'm working at Tampere University in the Audio Research Group under Asst. Prof. Archontis Politis as a postdoctoral researcher on six degrees-of-freedom rendering techniques for binaural reproduction with higher- and first-order Ambisonics microphones.
 
-        My broader interests include machine learning for audio applications, perceptual evaluation of spatial audio in virtual and augmented reality, room acoustic modeling, and physical modeling tasks such as the auralization of scattering effects.  
-        I also enjoy teaching and sharing knowledge, have a look at my selection of [courses I’ve taken](https://stwir.github.io/courses/) and [teaching activities](https://stwir.github.io/teaching/).
+        I received my Master’s degree in Electrical Engineering and Information Technology from Friedrich-Alexander-Universität Erlangen-Nürnberg and completed my Master’s thesis at the International Audio Laboratories Erlangen (AudioLabs). I specialized in Information Technology, which covered audio- and acoustics-related courses as well as, signal processing, radio frequency, digital communications, and coding and information theory. 
+        
+        Have a look at my selection of [courses I’ve taken](https://stwir.github.io/courses/) in my M.Sc. and D.Sc. studies. 
 
-        I received my Master’s degree in Electrical Engineering and Information Technology from Friedrich-Alexander-Universität Erlangen-Nürnberg and completed my Master’s thesis at the International Audio Laboratories Erlangen (AudioLabs).
+        My broader interests include machine learning for audio applications, perceptual evaluation of spatial audio in virtual and augmented reality, room acoustic modeling, and physical modeling tasks such as the auralization of scattering effects.  
+        I also enjoy [teaching and sharing knowledge](https://stwir.github.io/teaching/).
 
         Besides my academic work, I’m interested in chemical processes applied in the production of liquids which can be enjoyed on various occasions.
 
