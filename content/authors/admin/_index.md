@@ -69,6 +69,7 @@ education:
       Thesis: "Impact of Diffuse and Disturbed Reflections on Room Geometry Inference Algorithms" [Download thesis (PDF)](/uploads/thesis.pdf)
 
       Supervisor: Prof. Dr. ir. Emanuël Habets
+
       Advisor: Dr.-Ing. Youssef El Baba
   - area: B.Eng. Electrical Engineering and Information Technology
     institution: University of Applied Sciences Regensburg
