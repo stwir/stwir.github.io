@@ -88,6 +88,13 @@ work:
     date_start: "2019-05-01"
     date_end: "2019-11-30"
     summary: 
+  - position: Postdoctoral Research Fellow
+    company_name: Tampere University 
+    company_url: ''
+    company_logo: ''
+    date_start: "2026-01-14"
+    date_end: ""
+    summary: Postdoc in the Audio Research Group with Prof. Archontis Politis working on MPEG standardization in cooperation with Nokia Oy. 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
