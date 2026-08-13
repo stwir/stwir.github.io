@@ -3,6 +3,8 @@ title: "Spatially Selective Sound Capture Based on Aggregated Pair-Wise Similari
 summary: "Companion page (2025)."
 date: 2025-05-21
 draft: false
+share: false
+profile: false
 links:
   - icon: link
     name: "Visit"
