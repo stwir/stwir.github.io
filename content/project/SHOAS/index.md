@@ -3,6 +3,8 @@ title: "Selective Higher-Order Ambisonics Spotforming (SHOAS)"
 summary: "Companion page (2025)."
 date: 2025-09-22
 draft: false
+profile: false
+share: false 
 links:
   - icon: link
     name: "Visit"
