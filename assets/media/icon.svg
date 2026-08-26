@@ -1,0 +1,143 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2740"/>
+      <stop offset="1" stop-color="#191627"/>
+    </linearGradient>
+    <!-- Beer -->
+    <linearGradient id="beer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd24d"/>
+      <stop offset="0.5" stop-color="#f4a712"/>
+      <stop offset="1" stop-color="#d97e05"/>
+    </linearGradient>
+    <linearGradient id="beerShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Foam -->
+    <radialGradient id="foam" cx="0.4" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f0ead9"/>
+    </radialGradient>
+    <!-- Glass rim / edge -->
+    <linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.3"/>
+    </linearGradient>
+    <!-- Headphones -->
+    <linearGradient id="hp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f4a"/>
+      <stop offset="1" stop-color="#20242c"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a5563"/>
+      <stop offset="1" stop-color="#242a33"/>
+    </linearGradient>
+    <radialGradient id="pad" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#5b6675"/>
+      <stop offset="1" stop-color="#2c333d"/>
+    </radialGradient>
+
+    <clipPath id="beerClip">
+      <path d="M168 196 L344 196 L330 424 Q328 440 312 440 L200 440 Q184 440 182 424 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- ================= BEER MUG ================= -->
+  <!-- Handle -->
+  <path d="M344 236
+           C 410 232 424 268 420 300
+           C 416 336 388 352 342 346
+           L 342 322
+           C 372 324 392 316 394 298
+           C 396 278 378 262 344 262 Z"
+        fill="url(#glassEdge)" stroke="#ffffff" stroke-opacity="0.35" stroke-width="4"/>
+
+  <!-- Glass body -->
+  <path d="M168 196 L344 196 L330 424 Q328 440 312 440 L200 440 Q184 440 182 424 Z"
+        fill="#ffffff" fill-opacity="0.08"
+        stroke="url(#glassEdge)" stroke-width="6"/>
+
+  <!-- Beer fill -->
+  <g clip-path="url(#beerClip)">
+    <rect x="160" y="214" width="196" height="240" fill="url(#beer)"/>
+    <!-- dimples (Bavarian stein) -->
+    <g fill="#ffffff" fill-opacity="0.18">
+      <circle cx="200" cy="248" r="13"/><circle cx="236" cy="248" r="13"/>
+      <circle cx="272" cy="248" r="13"/><circle cx="308" cy="248" r="13"/>
+      <circle cx="218" cy="286" r="13"/><circle cx="254" cy="286" r="13"/>
+      <circle cx="290" cy="286" r="13"/>
+      <circle cx="200" cy="324" r="13"/><circle cx="236" cy="324" r="13"/>
+      <circle cx="272" cy="324" r="13"/><circle cx="308" cy="324" r="13"/>
+      <circle cx="218" cy="362" r="13"/><circle cx="254" cy="362" r="13"/>
+      <circle cx="290" cy="362" r="13"/>
+      <circle cx="210" cy="400" r="13"/><circle cx="246" cy="400" r="13"/>
+      <circle cx="282" cy="400" r="13"/>
+    </g>
+    <g fill="#ffffff" fill-opacity="0.28">
+      <circle cx="196" cy="244" r="5"/><circle cx="232" cy="244" r="5"/>
+      <circle cx="268" cy="244" r="5"/><circle cx="304" cy="244" r="5"/>
+      <circle cx="214" cy="282" r="5"/><circle cx="250" cy="282" r="5"/>
+      <circle cx="286" cy="282" r="5"/>
+    </g>
+    <!-- rising bubbles -->
+    <g fill="#ffffff" fill-opacity="0.5">
+      <circle cx="230" cy="340" r="3"/><circle cx="242" cy="300" r="2.5"/>
+      <circle cx="228" cy="260" r="2"/><circle cx="300" cy="360" r="3"/>
+      <circle cx="296" cy="320" r="2"/>
+    </g>
+    <!-- left shine -->
+    <rect x="160" y="214" width="70" height="240" fill="url(#beerShine)"/>
+  </g>
+
+  <!-- Rim highlight -->
+  <path d="M168 196 L344 196" stroke="#ffffff" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Foam -->
+  <path d="M162 200
+           C 150 176 176 158 196 166
+           C 200 142 232 138 244 158
+           C 258 138 292 142 296 164
+           C 316 150 344 166 340 190
+           C 356 190 360 208 344 214
+           L 168 214
+           C 152 210 152 202 162 200 Z"
+        fill="url(#foam)"/>
+  <g fill="#ffffff">
+    <circle cx="196" cy="170" r="12"/><circle cx="228" cy="160" r="14"/>
+    <circle cx="262" cy="162" r="13"/><circle cx="296" cy="172" r="12"/>
+    <circle cx="180" cy="188" r="11"/><circle cx="320" cy="186" r="11"/>
+    <circle cx="246" cy="182" r="10"/>
+  </g>
+  <g fill="#e9e2cf" fill-opacity="0.7">
+    <circle cx="212" cy="184" r="5"/><circle cx="280" cy="184" r="5"/>
+    <circle cx="248" cy="196" r="4"/>
+  </g>
+
+  <!-- ================= HEADPHONES ================= -->
+  <!-- Headband (over the foam) -->
+  <path d="M150 300
+           C 138 176 200 96 256 96
+           C 312 96 374 176 362 300"
+        fill="none" stroke="url(#hp)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M150 300
+           C 138 176 200 96 256 96
+           C 312 96 374 176 362 300"
+        fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Left ear cup -->
+  <g>
+    <rect x="120" y="272" width="70" height="96" rx="26" fill="url(#cup)" stroke="#151a20" stroke-width="4"/>
+    <ellipse cx="155" cy="320" rx="20" ry="30" fill="url(#pad)"/>
+  </g>
+  <!-- Right ear cup -->
+  <g>
+    <rect x="322" y="272" width="70" height="96" rx="26" fill="url(#cup)" stroke="#151a20" stroke-width="4"/>
+    <ellipse cx="357" cy="320" rx="20" ry="30" fill="url(#pad)"/>
+  </g>
+</svg>
