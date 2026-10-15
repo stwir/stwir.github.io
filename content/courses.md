@@ -6,12 +6,13 @@ layout: courses
 
 ## Courses and Theses'
 
-A selection of the courses I have taken and my Theses' throughout my Master's and Doctoral. studies.
+A selection of the courses I have taken and my Theses' throughout my Master's and Doctoral studies.
 
 ---
 
 ### Friedrich-Alexander-Universität Erlangen-Nürnberg  
 *(M.Sc. Studies)*
+Overall Grade: 1.5 (Very good)
 
 Grades are on a scale from 1.0 (very good) to 4.0 (sufficient), with 1.0 being the best grade. (German grading system - Steps: 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0)
 
